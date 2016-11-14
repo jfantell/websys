@@ -1,0 +1,71 @@
+{
+	"song": [
+	{
+		"title":"Miami 2017",
+		"artist":"Billy Joel",
+		"album":"Turnstiles",
+		"date":"May 19, 1976",
+		"genres":"Rock",
+		"link":"http://www.billyjoel.com",
+		"album_cover":"./resources/turnstiles.jpeg"
+	},
+	{
+		"title":"Born To Run",
+		"artist":"Bruce Springsteen",
+		"album":"Born To Run",
+		"date":"August 25, 1975",
+		"genres":"Rock",
+		"link":"http://www.brucespringsteen.net",
+		"album_cover":"./resources/borntorun.jpg"
+	},
+	{
+		"title":"Scenes From An Italian Restaurant",
+		"artist":"Billy Joel",
+		"album":"The Stranger",
+		"date":"September 29, 1977",
+		"genres":"Rock",
+		"link":"http://www.billyjoel.com",
+		"album_cover":"./resources/stranger.jpg"
+	},
+	{
+		"title":"Brothers In Arms",
+		"artist":"Dire Straits",
+		"album":"Brothers In Arms",
+		"date":"May 13, 1985",
+		"genres":"Rock",
+		"link":"http://www.markknopfler.com/discography/dire-straits/",
+		"album_cover":"./resources/brothersinarms.png"
+	},
+	{
+		"title":"The Lady In My Life",
+		"artist":"Michael Jackson",
+		"album":"Thriller",
+		"date":"November 30, 1982",
+		"genres":"Pop, Funk",
+		"link":"http://www.michaeljackson.com",
+		"album_cover":"./resources/thriller.jpg"
+	},
+	{
+		"title":"Hotel California",
+		"artist":"Eagles",
+		"album":"Hotel California",
+		"date":"December 8, 1976",
+		"genres":"Rock",
+		"link":"http://www.eagles.com/splash",
+		"album_cover":"./resources/hotelcalifornia.jpg"
+	}
+
+	],
+
+	"dvd": [
+	{
+		"title":"Dark Knight",
+		"artist":"Batman",
+		"album":"Hotel California",
+		"date":"December 8, 1976",
+		"genres":"Rock",
+		"link":"http://www.eagles.com/splash",
+		"album_cover":"./resources/hotelcalifornia.jpg"
+	}
+	]
+}

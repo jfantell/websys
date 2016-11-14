@@ -1,0 +1,160 @@
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    background: black;
+}
+
+/*Home Exclusive*/
+.background-image_intro{
+    background: url("FANTELL2.jpg") no-repeat center; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.background-image_about{
+   background: rgb(19,19,19,1); /* Old browsers */
+   background: -moz-linear-gradient(top, rgba(19,19,19,1) 10%, rgba(0,158,195,1) 100%); /* FF3.6-15 */
+   background: -webkit-linear-gradient(top, rgba(19,19,19,1) 10%,rgba(0,158,195,1) 100%); /* Chrome10-25,Safari5.1-6 */
+   background: linear-gradient(to bottom, rgba(19,19,19,1) 10%,rgba(0,158,195,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    
+}
+
+.background-image_contact{
+   background: rgb(19,19,19,1); /* Old browsers */
+   background: -moz-linear-gradient(top, rgba(0,158,195,1) 10%, rgba(19,19,19,1) 100%); /* FF3.6-15 */
+   background: -webkit-linear-gradient(top, rgba(0,158,195,1) 10%, rgba(19,19,19,1) 100%); /* Chrome10-25,Safari5.1-6 */
+   background: linear-gradient(to bottom, rgba(0,158,195,1) 10%, rgba(19,19,19,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+}
+
+/*For all pages */
+.about-section, .contact-section, .intro-section, .projects-section{
+    min-height: 100%;
+    height: auto;
+    padding: 10px;
+}
+
+
+h3 {
+    text-align: center;
+    color: #99ffff;
+    font-size: 14pt;
+}
+
+.navbar {
+    background: #383838 ;
+}
+
+.navbar-default .navbar-brand {
+    color: white;
+}
+
+.navbar-default .navbar-brand:hover {
+    color:  #DCDCDC;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: white;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+    color:  #DCDCDC;
+}
+
+#current_project{
+    background: black;
+}
+
+
+.transparent_block{
+    background: rgba(25,23,26, 0.9);
+    padding: 5px;
+}
+
+.col-sm-12 {
+    text-align: center;
+}
+
+#intro h1 {
+    padding-top: 130px;
+}
+
+p, h1{
+    color: white;
+    padding-left: 15px;
+    text-align: left;
+}
+
+h1 {
+    font-size: 40pt;
+}
+
+figcaption {
+    position: relative;
+    top: 500px;
+}
+
+mark{
+    background: rgba(255, 255, 255, 0.7);
+}
+
+img{
+    margin-top: 47px; 
+    opacity: 0.9;
+}
+
+img:hover{
+    opacity: 1.0;
+}
+
+
+.row{
+    margin-top: 70px;
+}
+
+#current_project .row{
+    margin: 0 auto;
+}
+
+
+.footer .row {
+    margin-top: 10px;
+}
+
+.transparent_field {
+    background: transparent; 
+}
+
+#result{
+    color: white;
+}
+
+.welcome_container {
+   position: relative;
+   top: 500px;
+}
+
+.engravement p { 
+    padding-top: 20px;
+    font-family:"Century Gothic", "HelveticaNeueLT Pro 45 Lt", sans-serif;  
+    text-align: center;
+    color: white;
+}
+
+.engravement div { 
+    height: 65px;
+    line-height: 60px;
+    font-family: "Century Gothic", "Helvetica", sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Darker text on medium background */
+.engravement1 { 
+    color: #333;
+    text-shadow: 0px -1px 0px rgba(0,0,0,.5); /* 50% black coming from the top */
+}
+
+

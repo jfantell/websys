@@ -1,0 +1,11 @@
+    h1 {
+      text-align:center;
+    }
+
+    .quote, #info {
+      font-size:1.25em;
+      letter-spacing:0.05em;
+      width:50%;
+      margin:1em auto;
+      border: 2px solid black;
+    }

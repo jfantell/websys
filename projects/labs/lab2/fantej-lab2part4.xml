@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/css" href="fantej-lab2part4.css"?>
+<root_element xmlns:html="http://www.w3.org/1999/xhtml">
+	<Playlist>
+		<Song>
+			<Container><Column_Header>Track Name</Column_Header></Container>
+			<Container><Column_Header>Artist</Column_Header></Container>
+			<Container><Column_Header>Album Name</Column_Header></Container>
+			<Container><Column_Header>Release Date</Column_Header></Container>
+			<Container><Column_Header>Genre(s)</Column_Header></Container>
+			<Container><Column_Header>Album Cover</Column_Header></Container>
+		</Song>
+		<Song>
+			<Container><Track_Name>Scenes From An Italian Restaurant</Track_Name></Container>
+			<Container><Artist>
+				<html:p>
+					<html:a href="http://www.billyjoel.com">Billy Joel</html:a>
+				</html:p>
+			</Artist></Container>
+			<Container><Album_Name>
+				<html:p>
+					<html:a href="http://www.allmusic.com/album/the-stranger-mw0000190392">The Stranger</html:a>
+				</html:p>
+			</Album_Name></Container>
+			<Container><Release_Date>September 29, 1977</Release_Date></Container>
+			<Container><Genre>Rock</Genre></Container>
+			<Container><Album_Cover>
+				<html:img src="./resources/stranger.jpg"></html:img>
+			</Album_Cover></Container>
+		</Song>
+		<Song>
+			<Container><Track_Name>Miami 2017 ("I've Seen The Lights Go Out On Broadway")</Track_Name></Container>
+			<Container><Artist>
+				<html:p>
+					<html:a href="http://www.billyjoel.com">Billy Joel</html:a>
+				</html:p>
+			</Artist></Container>
+			<Container><Album_Name>
+				<html:p>
+					<html:a href="http://www.allmusic.com/album/turnstiles-mw0000650318">Turnstiles</html:a>
+				</html:p>
+			</Album_Name></Container>
+			<Container><Release_Date>May 19, 1976</Release_Date></Container>
+			<Container><Genre>Rock</Genre></Container>
+			<Container><Album_Cover>
+				<html:img src="./resources/turnstiles.jpeg"></html:img>
+			</Album_Cover></Container>
+		</Song>
+		<Song>
+			<Container><Track_Name>Jungleland</Track_Name></Container>
+			<Container><Artist>
+				<html:p>
+					<html:a href="http://www.brucespringsteen.net">Bruce Springsteen</html:a>
+				</html:p>
+			</Artist></Container>
+			<Container><Album_Name>
+				<html:p>
+					<html:a href="http://www.allmusic.com/album/born-to-run-mw0000650803">Born To Run</html:a>
+				</html:p>
+			</Album_Name></Container>
+			<Container><Release_Date>August 25, 1975</Release_Date></Container>
+			<Container><Genre>Rock</Genre></Container>
+			<Container><Album_Cover>
+				<html:img src="./resources/borntorun.jpg"></html:img>
+			</Album_Cover></Container>
+		</Song>
+		<Song>
+			<Container><Track_Name>Brothers In Arms</Track_Name></Container>
+			<Container><Artist>
+				<html:p>
+					<html:a href="http://www.markknopfler.com/discography/dire-straits/">Dire Straits</html:a>
+				</html:p>
+			</Artist></Container>
+			<Container><Album_Name>
+				<html:p>
+					<html:a href="http://www.allmusic.com/album/brothers-in-arms-mw0000650079">Brothers In Arms</html:a>
+				</html:p>
+			</Album_Name></Container>
+			<Container><Release_Date>May 13, 1985</Release_Date></Container>
+			<Container><Genre>Rock</Genre></Container>
+			<Container><Album_Cover>
+				<html:img src="./resources/brothersinarms.png"></html:img>
+			</Album_Cover></Container>
+		</Song>
+		<Song>
+			<Container><Track_Name>Hotel California</Track_Name></Container>
+			<Container><Artist>
+				<html:p>
+					<html:a href="http://www.eagles.com/splash">Eagles</html:a>
+				</html:p>
+			</Artist></Container>
+			<Container><Album_Name>
+				<html:p>
+					<html:a href="http://www.allmusic.com/album/hotel-california-mw0000189884">Hotel California</html:a>
+				</html:p>
+			</Album_Name></Container>
+			<Container><Release_Date>December 8, 1976</Release_Date></Container>
+			<Container><Genre>Rock</Genre></Container>
+			<Container><Album_Cover>
+				<html:img src="./resources/hotelcalifornia.jpg"></html:img>
+			</Album_Cover></Container>
+		</Song>
+		<Song>
+			<Container><Track_Name>The Lady In My Life</Track_Name></Container>
+			<Container><Artist>	
+				<html:p>
+					<html:a href="http://www.michaeljackson.com">Michael Jackson</html:a>
+				</html:p>
+			</Artist></Container>
+			<Container><Album_Name>
+				<html:p>
+					<html:a href="http://www.allmusic.com/album/thriller-mw0000056882">Thriller</html:a>
+				</html:p>
+			</Album_Name></Container>
+			<Container><Release_Date>November 30, 1982</Release_Date></Container>
+			<Container><Genre>Pop, Funk</Genre></Container>
+			<Container><Album_Cover>
+				<html:img src="./resources/thriller.jpg"></html:img>
+			</Album_Cover></Container>
+		</Song>
+	</Playlist>
+</root_element>

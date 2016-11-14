@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<document>
+	<title> Lab 2 Part 2 </title>
+	<playlist>
+		<song>
+			<Artist>Billy Joel</Artist>
+			<Album_Cover>./resources/stranger.jpg</Album_Cover>
+			<Track_Name>Scenes From An Italian Restaurant</Track_Name>
+			<Album_Name>The Stranger</Album_Name>
+			<Release_Date>September 29, 1977</Release_Date>
+			<Genre>Rock</Genre>
+		</song>
+		<song>
+			<Artist>Billy Joel</Artist>
+			<Album_Cover>./resources/turnstiles.jpeg</Album_Cover>
+			<Track_Name>Miami 2017 ("I've Seen The Lights Go Out On Broadway")</Track_Name>
+			<Album_Name>Turnstiles</Album_Name>
+			<Release_Date>May 19, 1976</Release_Date>
+			<Genre>Rock</Genre>
+		</song>
+		<song>
+			<Artist>Bruce Springsteen</Artist>
+			<Album_Cover>./resources/borntorun.jpg</Album_Cover>
+			<Track_Name>Jungleland</Track_Name>
+			<Album_Name>Born To Run</Album_Name>
+			<Release_Date>August 25, 1975</Release_Date>
+			<Genre>Rock</Genre>
+		</song>
+		<song>
+			<Artist>Dire Straits</Artist>
+			<Album_Cover>./resources/brothersinarms.png</Album_Cover>
+			<Track_Name>Brothers In Arms</Track_Name>
+			<Album_Name>Brothers In Arms</Album_Name>
+			<Release_Date>May 13, 1985</Release_Date>
+			<Genre>Rock</Genre>
+		</song>
+		<song>
+			<Artist>Eagles</Artist>
+			<Album_Cover>./resources/hotelcalifornia.jpg</Album_Cover>
+			<Track_Name>Hotel California</Track_Name>
+			<Album_Name>Hotel California</Album_Name>
+			<Release_Date>December 8, 1976</Release_Date>
+			<Genre></Genre>
+		</song>
+		<song>
+			<Artist>Michael Jackson</Artist>
+			<Album_Cover>./resources/thriller.jpg</Album_Cover>
+			<Track_Name>The Lady In My Life</Track_Name>
+			<Album_Name>Thriller</Album_Name>
+			<Release_Date>November 30, 1982</Release_Date>
+			<Genre>Pop, Funk</Genre>
+		</song>
+	</playlist>
+</document>

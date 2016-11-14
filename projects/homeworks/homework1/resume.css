@@ -1,0 +1,146 @@
+body {
+	font-family: 'Lato', sans-serif;
+	background: url("./resources/rpiwall.jpg") no-repeat;
+	background-size: cover;
+	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	-webkit-background-size: cover;
+}
+
+#wrapper {
+	width: 1200px;
+	margin: 0 auto;
+	background:rgba(255,255,255, 0.9);
+	padding-bottom: 10px;
+
+}
+
+#name {
+	margin: auto;
+	padding: 5px 10px 0px 25px;
+	width: 1000px;
+	border-bottom: #0080ff solid 2px;
+	margin-bottom: 2px;
+}
+
+.main_section {
+	padding: 2px;
+	margin-top: 2px;
+	margin: auto;
+	width: 1020px;
+	list-style-type: circle;
+}
+
+.alt_section {
+	margin: auto;
+	margin-top: 2px;
+	width: 1020px;
+	list-style-type: circle;
+}
+
+.main_section:hover{
+	background:rgba(220,255,255, 0.9);
+}
+
+.column:hover{
+	background:rgba(220,255,255, 0.9);
+}
+
+.column h2 {
+	text-align: center;
+}
+
+ul {
+	vertical-align: top;
+}
+
+ul.main_list {
+	list-style-type: square;
+
+}
+
+ul.sublist{
+	list-style-type: circle;
+	margin-left: 30px;
+}
+
+ul.skillslist{
+	list-style-type: circle;
+}
+
+li {
+	padding-bottom: 0px;
+}
+
+h1 {
+	color: #0080ff;
+}
+h2 {
+	color: #0080ff;
+	font-size: 14pt;
+}
+
+h3 {
+	font-size: 14pt;
+	color: black;
+}
+
+.column {
+	vertical-align: text-top;
+	display: inline-block;
+	width: 330px;
+	min-height: 500px;
+}
+
+.header {
+	height: 40px;
+}
+
+.title {
+	display: inline-block;
+	max-width: 730px;
+}
+
+.date {
+	display: inline-block;
+	float: right;
+
+}
+
+.italic {
+	font-style: italic; 
+
+}
+
+#info {
+	width: 1000px;
+	margin: auto;
+	margin-top: -10px;
+	margin-bottom: -10px;
+}
+
+h5 {
+	text-align: center;
+}
+
+h5 a{
+	color: black;
+	text-decoration: none;
+}
+
+#image_block {
+	display: inline-block;
+	float: right;
+	width: 90px;
+	height: 105px;
+	background: url("./resources/FANTELL.jpg");
+	background-size: 100%;
+	vertical-align: top;
+}
+
+#objective {
+	display: inline-block;
+	width: 900px;
+	min-height: 105px;
+	vertical-align: top;
+}

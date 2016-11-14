@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Document>	
+	<Homeworks>
+		<Homework>
+			<Folder_Name>Homework 1: Resume</Folder_Name>
+			<Description>My resume (HTML)</Description>
+			<Solution_Link>../../resume.html</Solution_Link>
+		</Homework>
+		<Homework>
+			<Folder_Name>Homework 2: Hexed: The Game</Folder_Name>
+			<Description>How good are you with matching colors? Why not test your skills with Hexed: The Game</Description>
+			<Solution_Link>../../projects/homeworks/homework2/hexed.html</Solution_Link>
+		</Homework>
+	</Homeworks>
+	<Labs>
+		<Lab>
+			<Folder_Name>Lab 1: Apache </Folder_Name>
+			<Description>VHost configuration and Apache installation</Description>
+			<Solution_Link>../../projects/labs/lab1/index.php</Solution_Link>
+		</Lab>
+		<Lab>
+			<Folder_Name>Lab 2: HTML,CSS, &amp; XML</Folder_Name>
+			<Description>Top 6 Favorite Songs (Playlist)</Description>
+			<Solution_Link>../../projects/labs/lab2/fantej-lab2part1.html</Solution_Link>
+		</Lab>
+		<Lab>
+			<Folder_Name>Lab 3: Document Object Model</Folder_Name>
+			<Description>Iterating through the Dom</Description>
+			<Solution_Link>../../projects/labs/lab3/lab3.html</Solution_Link>
+		</Lab>
+		<Lab>
+			<Folder_Name>Lab 4: AJAX &amp; JSON </Folder_Name>
+			<Description>This was the fourth Lab</Description>
+			<Solution_Link>../../projects/labs/lab4/lab4start.html</Solution_Link>
+		</Lab>
+		<Lab>
+			<Folder_Name>Lab 5: Front-end Performance</Folder_Name>
+			<Description>Optimizing Markup and JavaScript </Description>
+			<Solution_Link>../../projects/labs/lab5/Lab5start.html</Solution_Link>
+		</Lab>
+		<Lab>
+			<Folder_Name>Lab 6: PHP</Folder_Name>
+			<Description>Need a calculator? Try this one.</Description>
+			<Solution_Link>../../projects/labs/lab6/lab6start.php</Solution_Link>
+		</Lab>
+		<Lab>
+			<Folder_Name>Lab 7: Bootstrap, JQuery, GitHub</Folder_Name>
+			<Description>Design a website and place it in a git repository to track future changes</Description>
+			<Solution_Link>./projects.html</Solution_Link>
+		</Lab>
+		<Lab>
+			<Folder_Name>Lab 8: SQL</Folder_Name>
+			<Description>Working with relational databases</Description>
+			<Solution_Link>../../projects/labs/lab8/websyslab8.sql</Solution_Link>
+		</Lab>
+		<Lab>
+			<Folder_Name>Lab 9: PHP &amp; MySQL </Folder_Name>
+			<Description>To Be Completed</Description>
+			<Solution_Link>../projects/labs/lab9/</Solution_Link>
+		</Lab>
+		<Lab>
+			<Folder_Name>Lab 10: To Be Determined</Folder_Name>
+			<Description>To Be Determined</Description>
+			<Solution_Link>./projects/labs/lab10/</Solution_Link>
+		</Lab>
+	</Labs>
+</Document>

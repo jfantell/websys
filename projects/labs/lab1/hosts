@@ -1,0 +1,22 @@
+##
+# Host Database
+#
+# localhost is used to configure the loopback interface
+# when the system is booting.  Do not change this entry.
+##
+127.0.0.1				localhost
+255.255.255.255		    broadcasthost
+::1                     localhost 
+
+
+127.0.0.1 websys
+127.0.0.1 lab1.websys
+127.0.0.1 lab2.websys
+127.0.0.1 lab3.websys
+127.0.0.1 lab4.websys
+127.0.0.1 lab5.websys
+127.0.0.1 lab6.websys
+127.0.0.1 lab7.websys
+127.0.0.1 lab8.websys
+127.0.0.1 lab9.websys
+127.0.0.1 lab10.websys

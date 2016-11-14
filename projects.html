@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Projects</title>
+
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+
+    <!-- Bootstrap Core CSS -->
+    <link href="./resources/bootstrap_resources/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+
+    <!-- Bootsrap CSS -->
+    <link href="./resources/bootstrap_resources/css/scrolling-nav.css" rel="stylesheet">
+
+    <!--Custom CSS-->
+    <link href="./resources/index_resources/Home.css" rel="stylesheet">
+    <link href="./resources/project_page_resources/projects.css" rel="stylesheet">
+</head>
+
+<!-- The #page-top ID is part of the scrolling feature - the data-spy and data-target are part of the built-in Bootstrap scrollspy function -->
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+
+    <div id="nav-placeholder"></div>
+
+    <!-- Intro Section -->
+    <section id="intro" class="intro-section background-image_intro">
+        <div class="container welcome_container">
+            <div class="row">
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="projects" class="projects-section background-image_projects">
+        <h1>Web Systems Development (Fall 2016) - Labs and Homeworks</h1>
+        <div id="accordion">
+        </div>
+        <div class="container footer">
+            <div class="row">
+                 <div class="col-sm-12">
+                    <a class="btn btn-default btn-primary" href="https://www.linkedin.com/in/johnfantell">LinkedIn</a>
+                    <a class="btn btn-default btn-success" href="https://twitter.com/presjcf">Twitter</a>
+                    <a class="btn btn-default btn-danger" href="https://www.youtube.com/channel/UCIcyd0mZYWCgNZ48X120pPQ">YouTube</a>
+                </div>
+                <div class="col-sm-12">
+                    <div class="engravement">
+                        <div class="engravement1">
+                            <p>JCF</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- jQuery -->
+    <script src="./resources/bootstrap_resources/js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="./resources/bootstrap_resources/js/bootstrap.min.js"></script>
+
+    <!-- Scrolling Nav JavaScript -->
+    <script src="./resources/bootstrap_resources/js/jquery.easing.min.js"></script>
+    <script src="./resources/bootstrap_resources/js/scrolling-nav.js"></script>
+
+    <!--JQUERY-->
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+    <script>
+    $.get("./resources/index_resources/navigation.html", function(data){
+        $("#nav-placeholder").replaceWith(data);
+    });
+
+    $( function() {
+     $( "#accordion" ).accordion({
+        heightStyle: "content"
+      });
+    });
+
+    $(document).ready(function() {
+        $.ajax({
+            type: "GET",
+            url: "./resources/quiz_1/quiz1.xml",
+            dataType: "xml",
+            success: function(xml){
+                $(xml).find('Homework').each(function(){
+                    var Folder_Name = $(this).find('Folder_Name').text();
+                    var Description = $(this).find('Description').text();
+                    var Solution_Link = $(this).find('Solution_Link').text();
+                    $('#accordion').append("<h3>"+Folder_Name+"</h3><div class='center'>"+Description+"<br><a class='btn btn-default' href='" + Solution_Link + "'>Click Here To View </a></div>").accordion("refresh");  
+                });
+        
+                $(xml).find('Lab').each(function(){
+                    var Folder_Name = $(this).find('Folder_Name').text();
+                    var Description = $(this).find('Description').text();
+                    var Solution_Link = $(this).find('Solution_Link').text();
+                    $('#accordion').append("<h3>"+Folder_Name+"</h3><div class='center'>"+Description+"<br><a class='btn btn-default' href='" + Solution_Link + "'>Click Here To View </a></div>").accordion("refresh");  
+                });
+            }
+        });
+    });
+    </script>
+</body>
+
+</html>

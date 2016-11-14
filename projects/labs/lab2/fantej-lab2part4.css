@@ -1,0 +1,50 @@
+root_element {
+	background: url("./resources/background.jpeg");
+}
+
+Playlist {
+	display: block;
+	background: rgba(22,22,22, 0.9);
+}
+
+Song {
+	color: white;
+	margin: 10px;
+	padding: 10px;
+	border: white solid 2px;
+	display: block;
+	margin-bottom: 10px;
+}
+
+Container {
+	width: 180px;
+	max-height: 50px;
+	display: inline-block;
+}
+
+Column_Header {
+	font-weight: bold;
+}
+
+Track_Name {
+	font-size: 60%;
+}
+
+Artist {
+	color: blue;
+}
+
+Album_Name {
+	font-style: italic;
+}
+
+img {
+	margin-left: 10px;
+	max-height: 90px;
+	max-width: 90px;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}

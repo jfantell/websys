@@ -1,0 +1,26 @@
+<!Doctype html>
+<html>
+  <head>
+     <title>Lab 4 AJAX</title>
+     <style>
+     /*Used to fit song data for each song in a row*/
+     .title, .artist, .album, .date, .genres, .album_cover {
+        display: inline-block;
+        padding: 10px;
+        width: 200px;
+        text-align: center;
+     }
+     </style>
+  </head>
+  <body>
+    <a id="site" href="#"><img id="coverart" src="noalbum.png" /></a>
+    <!--#playlist will act as a container for all of the songs-->
+      <div id="playlist">
+        <!--.song is used to grab each song listing from the JSON file-->
+        <div class="song">
+        </div>
+      </div>
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="./resources/lab4.js"></script>
+</body>
+</html>

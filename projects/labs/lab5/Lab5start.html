@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>Lab 5 - Start</title>
+		<!--Boostrap CSS-->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<!--Google font-->
+		<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+		<style type="text/css">
+		/*Optimization #3: Removed style tag in the body and put all css at top of page
+		  Optimizaton #4: Changed background to hex color and removed background picture*/
+		  body {background:yellow;font-family:'Oswald',sans-serif;}
+		 </style>
+	</head>
+	<body>
+		  <!--Alerts-->
+		  <div class="alert alert-success">
+		    <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+		    <strong>Optimization #1</strong> Moved the JavaScript to the bottom of the page.
+		  </div>
+		  <div class="alert alert-info">
+		    <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+		    <strong>Optimization #2</strong> Changed how the list items are added to the DOM. Instead of appending a new list to "ul#foo" 5,000 times, I created an empty string, concatenated the 5,000 list entries to the string, and then appended the string to the "ul#foo" one time. (Appending text to an HTML element is slower than string concatenation).
+		  </div>
+		  <div class="alert alert-warning">
+		    <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+		    <strong>Optimization #3</strong> Removed second css style tag in the body, moved all of the css to the top of the page.
+		  </div>
+		  <div class="alert alert-danger">
+		    <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+		    <strong>Optimization #4</strong> Removed the background image and changed the background to a shorthand hexideimal color.
+		  </div>
+		</div>
+		<div class="alert alert-info">
+		    <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+		    <strong>Optimization #5</strong> Removed the "bar" class from the unordered list, and made "bar" an id in the "div" tag. This made sense to since "bar" is only referring to one element (ids refer to one specific element, whereas classes refer to multiple elements) . Furthermore, ids are more efficient. 
+		</div>
+
+		<div id="bar">
+			<!--Optimizayion #5: Removed the "bar" class from the unordered list, and made "bar" an id in the "div" tag. This made sense to since "bar" is only referring to one element (ids refer to one specific element, whereas classes refer to multiple elements) . Furthermore, ids are more efficient.   -->
+			<a href="#" id="showall">Show All</a><ul id="foo"></ul>
+		</div>
+		<!--Boostrap JS files-->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+		<script>
+				//Optimization #1: Moved JS to bottom of page
+				//Optimization #2: Changed append function so that list items are concatenated to a string and the string is appended to the "ul#foo" one time
+				$(document).ready(function() {		
+					var str="";
+					for (var i = 0; i < 5000; i++) {
+						str+="<li>This is an item in the list. Click to make me disappear.</li>"
+					}
+					$("ul#foo").append(str);
+
+					//Part 1
+					$("#foo").click(function(e){
+						if(e.target.tagName == "LI")
+						{
+							$(e.target).hide(400);
+						}
+					});
+					$("#showall").click(function(e) {
+						$("li").each(function() { 
+							$(this).show(400);
+						});
+						alert("Restoring All!!!!!!!!!!!!");
+					});
+				});
+		</script>
+	</body>
+</html>
