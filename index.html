@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Home</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="./resources/bootstrap_resources/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+
+    <!-- Bootsrap CSS -->
+    <link href="./resources/bootstrap_resources/css/scrolling-nav.css" rel="stylesheet">
+
+    <!--Home CSS-->
+    <link href="./resources/index_resources/Home.css" rel="stylesheet">
+</head>
+
+<!-- The #page-top ID is part of the scrolling feature - the data-spy and data-target are part of the built-in Bootstrap scrollspy function -->
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+
+    <div id="nav-placeholder"></div>
+
+    <!-- Intro Section -->
+    <section id="intro" class="intro-section background-image_intro">
+        <div class="container welcome_container">
+            <div class="row">
+            </div>
+        </div>
+    </section>
+    
+    <div class="alert alert-info">
+            <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+            <strong>Info!</strong> Master Paul Del Sordo is a martial arts instructor who has been working with special needs children for several decades. I had the opportunity to volunteer as an assistant special needs martial arts instructor under his direction for six years. During that time, I witnessed the impact the program had on the children and their families firsthand. If you have the time, please check out Master Del Sordo's <a href="https://www.gofundme.com/2qv26cck">GoFundMe page. </a> He is trying to expand the program so that it can accommodate even more students! 
+    </div>
+
+    <!-- About Section -->
+    <section id="about" class="about-section background-image_about">
+        <div class="container">
+            <div class="row transparent_block">
+                <div class="col-sm-12">
+                    <h1>About</h1>
+                    <p>John is an Information Technology &#38; Web Science and Business Management student at Rensselaer Polytechnic Institute. John is a highly motivated, proactive individual who has taken on various leadership roles in his school, his job, and his community. He is just as passionate about designing technologies as he is about applying existing technologies to craft smarter, innovative solutions. As evidence, he is currently working with a team of four other individuals to design an application that will aid users with little to no web knowledge in finding and ranking the best deals on items they wish to purchase.</p>
+
+                     <p>John has a strong aptitude for problem-solving, and over the summer he had the opportunity to work at Viacom as an IT service desk analyst. He provided technical assistance to several hundred company employees and contractors on a weekly basis with issues relating to VDI/VPN, Microsoft Office, LDAP, Active Directory, hardware, and network performance. Currently, John is working with two Professors from the Lally School of Management on a research project which aims to study and categorize the relevant literature examining the interface between new product development and suppliers. This will be the second major research project he has taken part in since high school, the first being a 3-year study investigating how to minimize glare caused by photovoltaic cells.</p>
+
+                    <p>As part of a commitment to better serve the Rensselaer student body, John serves on the Executive Board – a student-run body that is responsible for overseeing the Student Union’s $4.9 million budget for club and event programming. He also serves on the Rensselaer Union Rules and Elections, and Policies Committees.<p>
+                </div>
+                <a class="btn btn-default" href="resume.html">Resume (HTML)</a>
+                <a class="btn btn-default" href="./index_resources/Resume.pdf">Resume (PDF)</a>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="current_project">
+        <div class="container">
+            <div class="row">
+                <div class="span4"></div>
+                <div class="span4">
+                    <a href="./resources/zeni/index.html"><img src="./resources/index_resources/zeni.png" class="center-block img-responsive"/>
+                    <h3>Search Less. Buy More. RPI Fall 2016. Web Systems Development Term Project. Samantha Albano. Sara Dale. John Fantell. Will Stone. Roshni Vachhani. </h3></a>
+                </div>
+                <div class="span4"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section background-image_contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 transparent_block">
+                    <h1>Contact Me</h1>
+
+                    <div class="container">
+                        <!-- <p>Have a question, comment, or suggestion? Send me an E-maile</p> -->
+                        <form id="myForm" action="./resources/index_resources/form/userInfo.php" method="post">
+                            <div class="form-group">
+                                <label style="color:white" for="name">Name:</label>
+                                <input type="text" class="transparent_field form-control" onblur="onBlur(this)" onfocus="onFocus(this)" name="name">
+                            </div>
+                            <div class="form-group">
+                                <label style="color:white" for="email">E-mail:</label>
+                                <input type="text" class="transparent_field form-control" onblur="onBlur(this)" onfocus="onFocus(this)" name="email">
+                            </div>
+                            <div class="form-group">
+                                <label style="color:white" for="message">Message:</label>
+                                <textarea class="transparent_field form-control" onblur="onBlur(this)" onfocus="onFocus(this)" rows="5" name="message" id="message"></textarea>
+                            </div>
+                                 <button type="submit" id="sub" class="btn btn-default">Submit</button>
+                        </form>
+                        <span id="result"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container footer">
+            <div class="row">
+                 <div class="col-sm-12">
+                    <a class="btn btn-default btn-primary" href="https://www.linkedin.com/in/johnfantell">LinkedIn</a>
+                    <a class="btn btn-default btn-success" href="https://twitter.com/presjcf">Twitter</a>
+                    <a class="btn btn-default btn-danger" href="https://www.youtube.com/channel/UCIcyd0mZYWCgNZ48X120pPQ">YouTube</a>
+                </div>
+                <div class="col-sm-12">
+                    <div class="engravement">
+                        <div class="engravement1">
+                            <p>JCF</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- jQuery -->
+    <script src="./resources/bootstrap_resources/js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="./resources/bootstrap_resources/js/bootstrap.min.js"></script>
+
+    <!-- Scrolling Nav JavaScript -->
+    <script src="./resources/bootstrap_resources/js/jquery.easing.min.js"></script>
+    <script src="./resources/bootstrap_resources/js/scrolling-nav.js"></script>
+
+    <!--Forms-->
+    <script src="./resources/index_resources/form/my_script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+    <script>
+    $.get("./resources/index_resources/navigation.html", function(data){
+        $("#nav-placeholder").replaceWith(data);
+    });
+    </script>
+</body>
+
+</html>
