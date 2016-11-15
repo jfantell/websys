@@ -40,9 +40,10 @@
         </div>
     </section>
 
-    <!-- About Section -->
+    <!-- Homeworks and Labs -->
     <section id="projects" class="projects-section background-image_projects">
         <h1>Web Systems Development (Fall 2016) - Labs and Homeworks</h1>
+        <!--JQuery UI: accordion-->
         <div id="accordion">
         </div>
         <div class="container footer">
@@ -78,40 +79,7 @@
     <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 
-    <script>
-    $.get("./resources/index_resources/navigation.html", function(data){
-        $("#nav-placeholder").replaceWith(data);
-    });
-
-    $( function() {
-     $( "#accordion" ).accordion({
-        heightStyle: "content"
-      });
-    });
-
-    $(document).ready(function() {
-        $.ajax({
-            type: "GET",
-            url: "./resources/quiz_1/quiz1.xml",
-            dataType: "xml",
-            success: function(xml){
-                $(xml).find('Homework').each(function(){
-                    var Folder_Name = $(this).find('Folder_Name').text();
-                    var Description = $(this).find('Description').text();
-                    var Solution_Link = $(this).find('Solution_Link').text();
-                    $('#accordion').append("<h3>"+Folder_Name+"</h3><div class='center'>"+Description+"<br><a class='btn btn-default' href='" + Solution_Link + "'>Click Here To View </a></div>").accordion("refresh");  
-                });
-        
-                $(xml).find('Lab').each(function(){
-                    var Folder_Name = $(this).find('Folder_Name').text();
-                    var Description = $(this).find('Description').text();
-                    var Solution_Link = $(this).find('Solution_Link').text();
-                    $('#accordion').append("<h3>"+Folder_Name+"</h3><div class='center'>"+Description+"<br><a class='btn btn-default' href='" + Solution_Link + "'>Click Here To View </a></div>").accordion("refresh");  
-                });
-            }
-        });
-    });
-    </script>
+    <!--Custom JavaScript-->
+    <script src="./resources/project_page_resources/projects.js"></script>
 </body>
-
 </html>
